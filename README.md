@@ -1,8 +1,8 @@
 # Pricing d'autocall
 
-**Auteurs :** Alexandre Guérin - Jeanne Collot - Arthur Frachon - Alice Munier - Milo Seguin
-**Cadre :** Dauphine - cours de Produits Structurés
-**Date :** 2024
+**Auteurs :** Alexandre Guérin - Jeanne Collot - Arthur Frachon - Alice Munier - Milo Seguin  
+**Cadre :** Dauphine - cours de Produits Structurés  
+**Date :** 2024  
 
 ## 📌 Sujet
 Ce projet est un outil conçu pour simuler et évaluer des autocalls. Il inclut un pricer développé en Python ainsi qu'une interface utilisateur pour rendre l'application accessible et intuitive.
