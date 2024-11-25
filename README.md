@@ -4,17 +4,20 @@
 **Cadre :** Dauphine - cours de Produits Structurés  
 **Date :** 2024  
 
+
 ## 📌 Sujet
-Ce projet est un outil conçu pour simuler et évaluer des autocalls. Il inclut un pricer développé en Python ainsi qu'une interface utilisateur pour rendre l'application accessible et intuitive.
+Ce projet est un outil conçu pour simuler et évaluer des autocalls. Il inclut un pricer développé en Python ainsi qu'une interface utilisateur pour rendre l'application accessible et intuitive. Pour en savoir plus, consultez le sujet 2 du fichier "Sujet_PricingStructures_2024.pdf" 
 
 Le projet est structuré autour de deux composants principaux :
 - **`autocall_pricer.py`** : Le cœur du projet, un pricer permettant de modéliser et d'évaluer les rendements d'autocall.
 - **`interface.py`** : Une interface utilisateur interactive qui permet de visualiser les calculs et les résultats.
 
+
 ## 🎯 Objectifs
 - Simulation des flux financiers liés aux autocalls.
 - Paramétrage des produits structurés (barrières, coupons, etc.).
 - Affichage des résultats via une interface graphique.
+
 
 ## 🔍 Structure du projet
 Le projet contient les fichiers suivants :
