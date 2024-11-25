@@ -26,3 +26,19 @@ Le projet contient les fichiers suivants :
 - **`Logo.png`** : Logo du projet pour l'interface.
 - **`__pycache__`** : Dossier généré automatiquement pour les fichiers compilés.
 
+## 📉 Méthode utilisée 
+Le pricer est basé sur la méthode **Monte Carlo**, qui est particulièrement adaptée pour modéliser la valeur des produits structurés complexes tels que les autocalls. 
+#### 1. Simulation des scénarios de marché
+   - Génération de milliers de trajectoires pour les sous-jacents financiers (actions, indices, etc.) à l'aide de processus stochastiques, comme le modèle de Black-Scholes ou des variantes (ex. modèles avec volatilité stochastique).
+   
+#### 2. Calcul des flux financiers
+   - Évaluation des paiements des coupons en fonction des conditions du produit (barrières, rendement minimum, etc.).
+   - Identification des points de sortie anticipée (autocall).
+
+#### 3. Actualisation des flux
+   - Tous les flux financiers futurs sont actualisés au taux sans risque pour obtenir leur valeur présente.
+
+#### 4. Calcul de la valeur finale
+   - La moyenne des résultats des simulations donne la valeur estimée du produit structuré.
+
+---
